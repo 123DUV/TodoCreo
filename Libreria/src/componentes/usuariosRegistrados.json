@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "departamento": "Arauca",
+        "ciudad": "Arauquita",
+        "identificacion": "1109491558",
+        "nombres": "Duvan",
+        "apellidos": "Mendez",
+        "email": "duvan123@gmail.com",
+        "direccion": "eqeeqeqvtebevgbdfgd",
+        "telefono": "1234567890",
+        "fechaNacimiento": "2024-05-16",
+        "password": "Duvan123.",
+        "estado": "activo",
+        "rol": "usuario",
+        "fecha_Creacion": "2024-05-06T21:12:45.161Z"
+    },
+    {
+        "id": 2,
+        "departamento": "Amazonas",
+        "ciudad": "Leticia",
+        "identificacion": "12345",
+        "nombres": "Duvan",
+        "apellidos": "sdfgsdsd",
+        "email": "hola@gmail.com",
+        "direccion": "adsfdswfasfasfasdfasfasdfads",
+        "telefono": "1234567890",
+        "fechaNacimiento": "2024-05-15",
+        "password": "Hola12.?",
+        "estado": "activo",
+        "rol": "usuario",
+        "fecha_Creacion": "2024-05-27T18:54:34.956Z"
+    }
+]

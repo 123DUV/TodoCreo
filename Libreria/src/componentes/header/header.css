@@ -1,0 +1,26 @@
+.logo{
+    width: 5%;
+    margin: 15px;
+    background-color: cyan; 
+    
+}
+.contenedor{
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 2% 1% 2% 1%;
+    
+   
+}
+#navbarSupportedContent{
+    margin-left: 2%;
+    
+
+}
+.navbar-nav .nav-item svg {
+    fill:cyan; /* Cambia el color de relleno de los iconos a blanco */
+}
+.navbar-nav .nav-item .nav-link {
+    color: cyan; /* Cambia el color del texto de los enlaces a blanco */
+}
+
+

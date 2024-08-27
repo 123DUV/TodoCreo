@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">/
+        <link rel="stylesheet" href="form.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="main.js"></script>
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <section  class="sectionGeneral">
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <div>
+          
+                      <div>
+          
+                        <h2>Formulario</h2>
+                        <p>Ingrese su informacion <span>REAL</span></p>
+                        <form action="/registrarse" method="post">
+                        <div>
+                          <label class="cedula-label" for="typeCedula">Cedula de Ciudadania</label>
+                          <input type="number" id="typeCC" class="cedula" name="documento" />                           
+                        </div>
+
+                        <div>
+                          <label class="firtsName-label" for="typeFirtsName">Nombres</label>
+                          <input type="text" id="typeFirtsName" class="firtsName" name="nombre" />                            
+                        </div>
+
+                        <div>
+                            <label class="lastName-label" for="typeLastName">Apellidos</label>
+                            <input type="text" id="typeLastName" class="lastName" name="apellido"/>                            
+                        </div>
+
+                        <div>
+                            <label class="user" for="typeUser">Usuario</label>
+                            <input type="text" id="typeUser" class="user" name="usuario"/>                            
+                        </div>
+
+                        <div>
+                          <label class="email-label" for="typeEmail">Email</label>
+                          <input type="email" id="typeEmail" class="email" name="email"/>                          
+                        </div>
+                        
+                        <div>
+                            <label class="pass-label" for="typePass">Contraseña</label>
+                            <input type="password" id="typePass" class="pass" name="pass"/>
+                        </div>                         
+
+                        <button class="dataRegister" type="submit" onclick="validarFormulario()">Registrarse</button>
+
+                        <button class="dataDelete" type="submit">Limpiar Campos</button>
+
+                        </form>
+          
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </body>
+</html>
